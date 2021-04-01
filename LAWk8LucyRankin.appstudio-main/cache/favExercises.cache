@@ -1,0 +1,15 @@
+/*
+var exercises = ["pullups", "pushups", "situps", "jogging", "plank", "curls"]
+var coreExercises = ["situps", "plank"]
+
+}
+favExercises.onshow = function() {
+  selExerises.clear()
+  selCoreExercises.clear()
+  for (i = 0; i < exercises.length; i++)
+    selExercises.addItem(exercises[i])
+    
+  for (y = 0; y < coreExercises.length; y++)
+    selCoreExercises.addItem(coreExercises[y])
+}
+*/

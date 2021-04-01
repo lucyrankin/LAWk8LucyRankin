@@ -1,0 +1,27 @@
+hmbMenu.onclick = function(s) {
+  if (typeof(s) == "object")
+    return
+  /* add a switch here to take the user to the form
+     they chose. 
+  */
+}
+
+hmbrMenu.hidden = false
+}
+
+hmbrMenu.onclick = function(s) {
+
+    if (typeof(s) == "object") {
+      return
+    } else {
+      switch (s) {
+        case "dessertVoting":
+          ChangeForm(dessertVoting)
+          break
+        case "describeYou":
+          ChangeForm(describeYou)
+          break
+        case "favExcercises":
+          ChangeForm(favExercises)
+          break
+      }
